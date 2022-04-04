@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이디 중복확인</title>
+    <link rel="stylesheet" href="./css/checkId_css.css">
+</head>
+<body onload="checkIdValue();">
+    <header>
+        <b style="text-align: center;"><h2>아이디 중복확인</h2></b>
+    </header>
+    
+    <hr size="1" width="250">
+    <div class="check_id_wrap">
+        <form id="checkId" name="userInfo">
+            <input type="text" id="userId" class="input_text" name="id" maxlength="20">
+            <input type="button" class="check_id_btn" id="check_id_btn" onclick="checkId();" value="중복확인">
+        </form>
+    </div>
+    <br>
+    <div class="btn_wrap">
+        <input type="button" value="사용하기" class="use_btn" id="use_btn" onclick="sendCheckValue();" style="visibility: hidden;">
+        <input type="button" value="취소" class="cancel_btn" id="cancel_btn" onclick="window.close();">
+    </div>
+    <script type="text/javascript" src="./js/check_id_js.js"></script>
+</body>
+</html>

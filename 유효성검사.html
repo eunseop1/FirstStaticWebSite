@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="inputEmail" id="inputEmail">
+    <button onclick="isValid()">유효성 검사</button>
+
+    <script>
+        function isValid(){
+            let regex = /[a-zA-Z0-9,_+-]+@[a-zA-Z0-9-]+.+[a-zA-Z]/;
+            let data = document.getElementById("inputEmail").value;
+            console.log(data);
+            console.log(typeof(data));
+            let result = data.match(regex);
+            alert(result[0]);
+        }
+    </script>
+</body>
+</html>

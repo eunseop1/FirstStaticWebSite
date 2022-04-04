@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    position: relative;
+    background-color: beige;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+}
+
+header .logo{
+    position: absolute;
+    margin-left: 2%;
+    width: 10%;
+    font-size: 10px;
+    margin-top: 0.5%;
+}
+header .nav{
+    position: absolute;
+    text-align: center;
+    right: 10%;
+    width: 100%;
+    height: 40px;
+}
+header .nav ul{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-left: 20%;
+    width: 80%;
+}
+
+header .nav ul li{
+    display: inline;
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+header .profile{
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    width: 140px;
+    height: 25%;
+}
+.profile ul{
+    margin-top: 10%;
+}
+.profile ul li{
+    display: inline;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+}
+
+/* 내용시작 */
+
+.contentBox{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: burlywood;
+}
+.introBox{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.colombianBox{
+    position: absolute;
+    margin-top: 700px;
+    width: 100%;
+    height: 600px;
+    background-color: beige;
+    text-align: center;
+}
+
+.ethiopianBox1{
+    position: absolute;
+    margin-top: 1300px;
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    text-align: center;
+}
+
+.ethiopianBox2{
+    position: absolute;
+    margin-top: 1800px;
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    text-align: center;
+}
+.hawaiianBox{
+    position: absolute;
+    margin-top: 2400px;
+    width: 100%;
+    height: 550px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.jamaicanBox{
+    position: absolute;
+    margin-top: 2950px;
+    width: 100%;
+    height: 550px;
+    background-color: aqua;
+    text-align: center;
+}
+.kenyaBox{
+    position: absolute;
+    margin-top: 3500px;
+    width: 100%;
+    height: 550px;
+    background-color: brown;
+    text-align: center;
+}
+.javaBox{
+    position: absolute;
+    margin-top: 4050px;
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
+    text-align: center;
+}
+.sumatraBox{
+    position: absolute;
+    margin-top: 4550px;
+    width: 100%;
+    height: 600px;
+    background-color: cadetblue;
+    text-align: center;
+}
+.kopiLuwakBox{
+    position: absolute;
+    margin-top: 5100px;
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.mochaBox{
+    position: absolute;
+    margin-top: 5600px;
+    width: 100%;
+    height: 600px;
+    background-color: crimson;
+    text-align: center;
+}
+.tanzaniaBox{
+    position: absolute;
+    margin-top: 6200px;
+    width: 100%;
+    height: 550px;
+    background-color: gray;
+    text-align: center;
+}
+.santosBox{
+    position: absolute;
+    margin-top: 6750px;
+    width: 100%;
+    height: 600px;
+    background-color: darkgreen;
+    text-align: center;
+}
+.guatemalanBox1{
+    position: absolute;
+    margin-top: 7350px;
+    width: 100%;
+    height: 550px;
+    background-color: deepskyblue;
+    text-align: center;
+}
+.guatemalanBox2{
+    position: absolute;
+    margin-top: 7900px;
+    width: 100%;
+    height: 600px;
+    background-color: deepskyblue;
+    text-align: center;
+}
+.costaRicanBox{
+    position: absolute;
+    margin-top: 8500px;
+    width: 100%;
+    height: 600px;
+    background-color: chocolate;
+    text-align: center;
+}
+
+/* 바닥 */
+.footer{
+    margin-top: 8400px;
+    background-color: rgb(70, 66, 66);
+    width: 100%;
+    height: 156px;
+}
+
+.creator_info{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 80%;
+}
+
+.creator_info li{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 3px 0;
+}
+
+.copyright{
+    color: #999;
+    text-align: center;
+}

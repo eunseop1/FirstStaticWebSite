@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeJOA로그인</title>
+    <link rel="stylesheet" href="./css/login_css.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="main.html">
+                <img src="./picture/cafe.png" 
+                alt="cafe" width="100" height="60">
+                <p style=" font: italic bold 2.2em/1em Georgia, serif ; color: rgb(45, 122, 45); ">CoffeeJOA</p>
+            </a>
+        </div>
+        
+        <div class="nav">
+            <ul><h4>
+                <li><a href="main.html">Main</a></li>
+                <li><a href="원두 소개.html">Info</a></li>
+                <li><a href="도움말.html">Help</a></li>
+            </ul></h4>
+        </div>
+        <div class="profile">
+            <ul><h4>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="sign_in.html">회원가입</a></li>
+            </ul></h4>
+        </div>
+    </header>
+
+
+    <div id="login_wrap" class="login_wrap">
+        <div class="id_pw_wrap">
+            <form class="login">
+                <div class="id_wrap" class="input_row">
+                    <input id="id" class="input_text" type="text" name="id" placeholder="아이디" title="아이디">
+                </div>
+                <p class="limit_txt"></p>
+                <div class="pw_wrap" class="input_row">
+                    <input id="pw" class="input_text" type="password" name="pw" placeholder="비밀번호" title="비밀번호">
+                </div>
+            </div>
+            <div class="save_id_wrap">
+                <input id="save" class="input_save" type="checkbox" name="saveId" value="off">
+                <label class="save_id" for="save">
+                        아이디 저장
+                </label>
+            </div>
+            <div class="login_btn_wrap">
+                <button id="btn_login" class="btn_login" type="submit" onclick="login();">
+                    <span class="btn_text">로그인</span>
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="find_wrap">
+        <ul>
+            <li>
+                <a href="find_id.html" id="find_id">아이디 찾기</a>
+            </li>
+            <li>
+                <a href="find_password.html" id="find_password">비밀번호 찾기</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <ul class="creator_info">
+            <li>손재헌. Leeguson@gazza.com</li>
+            <li>이영원. Ilzzi@maseyo.com</li>
+            <li>이은섭. Hal mari@updda.com</li>
+        </ul>
+        <div class="copyright">
+            ⓒ Coffeejoa. All Rights Reserved.
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/login.js"></script>
+</body>
+</html>

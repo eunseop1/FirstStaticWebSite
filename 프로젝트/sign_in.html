@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeJOA회원가입</title>
+    <link rel="stylesheet" href="./css/sign_in_css.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="main.html">
+                <img src="./picture/cafe.png" 
+                alt="cafe" width="100" height="60">
+                <p style=" font: italic bold 2.2em/1em Georgia, serif ; color: rgb(45, 122, 45); ">CoffeeJOA</p>
+            </a>
+        </div>
+        
+        <div class="nav">
+            <ul><h4>
+                <li><a href="main.html">Main</a></li>
+                <li><a href="원두 소개.html">Info</a></li>
+                <li><a href="도움말.html">Help</a></li>
+            </ul></h4>
+        </div>
+        <div class="profile">
+            <ul><h4>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="sign_in.html">회원가입</a></li>
+            </ul></h4>
+        </div>
+    </header>
+
+
+    <div class="welcome">
+        <span>어서와~ 원두는 처음이지?</span>
+    </div>
+    <div class="sign_in_wrap">
+        <form class="sign_in" name="userInfo">
+            <ul class="sign_in">
+                <li>아이디를 입력해주세요.</li>
+                <input type="text" id="userId" class="input_text" name="id" maxlength="20" placeholder="아이디는 최대 20글자까지 입력할 수 있습니다.">
+                <input type="button" class="id_check_btn" onclick="checkId();" value="중복확인">
+                <li>비밀번호를 입력해주세요.</li>
+                <input type="password" name="pw" id="userPassword" class="input_text" maxlength="20" placeholder="비밀번호는 최대 20글자까지 입력할 수 있습니다.">
+                <li>비밀번호 재확인</li>
+                <input type="password" name="pw" id="userPasswordCheck" class="input_text" maxlength="20" placeholder="비밀번호를 다시 입력해주세요.">
+                <li>이름을 입력해주세요.</li>
+                <input type="text" id="userName" class="input_text" name="name" maxlength="20" placeholder="예) 홍길동">
+                <li>닉네임을 입력해주세요.</li>
+                <input type="text" id="userNickname" class="input_text" name="nickname" maxlength="20" placeholder="닉네임은 최대 20글자까지 입력할 수 있습니다.">
+                <input type="button" class="nickname_check_btn" onclick="checkNickname();" value="중복확인">
+                <li>성별</li>
+                <select name="gender" id="userGender">
+                    <option value="none" selected>------</option>
+                    <option value="남">남</option>
+                    <option value="여">여</option>
+                </select>
+                <li>휴대폰 번호를 입력해주세요.</li>
+                <input type="text" id="userPhoneNumber" class="input_text" name="phone_number" placeholder="에)01012345678">
+            </ul>
+            <button type="submit" class="sign_in_btn" onclick="sign_in();">회원가입</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <ul class="creator_info">
+            <li>손재헌. Leeguson@gazza.com</li>
+            <li>이영원. Ilzzi@maseyo.com</li>
+            <li>이은섭. Hal mari@updda.com</li>
+        </ul>
+        <div class="copyright">
+            ⓒ Coffeejoa. All Rights Reserved.
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/sign_in_js.js"></script>
+</body>
+</html>

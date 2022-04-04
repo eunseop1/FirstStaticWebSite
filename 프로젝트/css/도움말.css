@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    position: relative;
+    background-color: beige;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+}
+
+header .logo{
+    position: absolute;
+    margin-left: 2%;
+    width: 10%;
+    font-size: 10px;
+    margin-top: 0.5%;
+}
+header .nav{
+    position: absolute;
+    text-align: center;
+    right: 10%;
+    width: 100%;
+    height: 40px;
+}
+header .nav ul{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-left: 20%;
+    width: 80%;
+}
+
+header .nav ul li{
+    display: inline;
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+header .profile{
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    width: 140px;
+    height: 25%;
+}
+.profile ul{
+    margin-top: 10%;
+}
+.profile ul li{
+    display: inline;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+}
+
+
+.mainground{
+    background-color: rgb(251, 248, 248);   
+    margin-top: 30px;
+    position : absolute;    
+    padding :50px;
+    height: 295vh;
+    right : 130px;
+    left : 145px;
+    opacity:1;
+    background-size:cover;
+    text-align: center;
+    }
+
+
+
+
+
+
+    .footer{   
+        background-color: rgb(70, 66, 66); 
+        position: absolute;
+        padding: 14px;
+        width: 98.8vw;
+        left : -145px;
+        margin-top : 50px;
+        
+    }
+    
+    .creator_info{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        width: 80%;
+    }
+    
+    .creator_info li{
+        color: rgba(255, 255, 255, 0.5);
+        padding: 3px 0;
+    }
+    
+    .copyright{
+        color: #999;
+        text-align: center;
+    }
+
+
+    #MuseumPicture{
+        text-align: center;
+    }
+    #map{
+        text-align: center;
+    }
+
+    #quickButton{
+        text-align: right;
+        position :fixed;
+        z-index : 10;
+    }
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+}
+
+header{
+    margin-top: 10vh;
+}
+
+.check_id_wrap{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.input_text{
+    font-size: 12px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.check_id_btn, .use_btn, .cancel_btn{
+    border: 1px solid #cbcbcb;
+    border-radius: 12px;
+    background-color: #7c5140;
+    padding: 10px 5px;
+    color: #fff;    
+}
+
+.btn_wrap{
+    text-align: center;
+}
+
+.check_id_btn, .use_btn, .cancel_btn{
+    cursor: pointer;
+}
